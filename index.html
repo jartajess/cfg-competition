@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="cfgstyle.css">
-
 </head>
 <body>
   <header>
-    <img src="http://2bh3fjfwtb1h68dqai6uooji.wpengine.netdna-cdn.com/wp-content/uploads/2015/08/1655795_10152884394227905_4939309276023341375_o-300x300.jpg">
+    <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAWrAAAAJGE2MjkzNjhhLTBhY2QtNGZmYS05Yjk5LTliYzNmYzhkY2ZjNw.jpg">
     <h1>Jessie's HTML/CSS/Javascript</h1>
     <ul>
       <li><a href="#">About Me</a></li>
@@ -14,21 +14,37 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </header>
-  <article>
-    <h2>I started with HTML</h2>
-    <p>Blah blah blah.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Next came the CSS</h2>
-    <p>Blah blah blah blah.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Topped it off with Javascript</h2>
-    <p>Blah blah blah blah blah.</p>
-     <button>Like</button>
-  </article>
+  
+  <div class="container">
+  <h2><small>Articles</small><br />What's new?</h2>
+
+    <div class="row">
+      <div class='col-sm-4 '>
+      <img src='http://www.jamieglowacki.com/wp-content/uploads/2015/01/LYw4POpF.jpeg' class="img-circle  center-block">
+       <blockquote>
+        <p>I started with HTML</p>
+       <small>Blah blah blah.</small>
+       <button>Like</button>
+       </blockquote>
+      </div> 
+      <div class='col-sm-4'>
+      <img src='http://www.jamieglowacki.com/wp-content/uploads/2015/01/LYw4POpF.jpeg' class="img-circle  center-block">
+      <blockquote>
+  <p>Next came the CSS.</p>
+  <small>Blah blah blah blah.</small>
+  <button>Like</button>
+</blockquote>
+      </div> 
+      <div class='col-sm-4'>
+      <img src='http://www.jamieglowacki.com/wp-content/uploads/2015/01/LYw4POpF.jpeg' class="img-circle  center-block">
+      <blockquote>
+  <p>Topped it off with Javascript</p>
+  <small>Blah blah blah blah blah.</small>
+  <button>Like</button>
+</blockquote>
+      </div> 
+    </div>
+  
   <script>
 $('button').on('mouseover',function ('p','blue')
 </script>
