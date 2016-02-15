@@ -1,0 +1,43 @@
+header {
+      text-align: center;
+      background: url('https://venetianred.files.wordpress.com/2010/01/hannah-hoche28094on-with-the-party-1965.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      img{
+        margin 20px 0px 0px 0px
+      }
+      h1 {
+        font-size: 20px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
