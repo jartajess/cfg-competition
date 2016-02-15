@@ -23,11 +23,28 @@ header {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-    article {
+    
+    .first {
+      background-image: url("http://www.theteatrove.com/blog/wp-content/uploads/2015/09/Loose-Leaf-Tea.jpg");
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
     }
+    
+    .second {
+      background-image: url("http://www.cateringsuppliesdevon.co.uk/wp-content/uploads/2015/01/coffee-beans.jpg");
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;    
+    }
+    
+    .third {
+      background-image: url("http://agriculturewire.com/wp-content/uploads/2015/06/cocoa.jpg");
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;    
+    }
+    
     @media (max-width: 500px) {
       img{
         margin 20px 0px 0px 0px
