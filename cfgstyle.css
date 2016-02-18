@@ -7,7 +7,6 @@ body {
 #bg_container { 
   height:500px;
   overflow:hidden;
-  position: absolute;
   }
   
 #bg {
