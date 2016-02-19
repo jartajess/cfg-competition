@@ -19,7 +19,7 @@ body {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(https://i.ytimg.com/vi/-uJ9P3X30v0/maxresdefault.jpg) no-repeat;
+    background: url(backgroundbubbles.jpg) no-repeat;
     background-size: cover; 
 }
 
