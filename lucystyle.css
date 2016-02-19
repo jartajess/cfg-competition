@@ -71,6 +71,7 @@ header {
       font-family: Franklin Gothic Medium;
       font-size: 40px;
       text-align: center; 
+      vertical-align: middle;
       color: #800080;  
     }
     
