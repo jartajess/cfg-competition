@@ -39,6 +39,11 @@ video#bgvid {
     background: url(polina.jpg) no-repeat;
     background-size: cover; 
 }
+
+video#bgvid {
+    transition: 1s opacity;
+}
+.stopfade { opacity: .5; }
   
 #bg {
   width:100%; 
