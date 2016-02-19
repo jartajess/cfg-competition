@@ -1,0 +1,101 @@
+header {
+      text-align: center;
+      background: url('https://venetianred.files.wordpress.com/2010/01/hannah-hoche28094on-with-the-party-1965.jpg');
+      background-size: cover;
+      color: white;
+    }
+    
+    p {
+      color: rgba(255,255,255,1);
+      background: black;
+      background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      padding: 10px;
+      line-height: 28px;
+      text-align: justify;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      height: 30px;
+      transition: height .5s;
+      -webkit-transition: height .5s;
+      -moz-transition: height .5s;
+      }
+    
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    /* h2 {
+       text-align: center;
+       font-size: 40px;
+    } */
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    .first {
+      background-image: url("http://media.salon.com/2014/11/shutterstock_698537053-1280x960.jpg");
+      background-size: cover;
+      padding: 20px;
+      margin: 0 auto;
+      width:80%;
+      height: 300px;
+      font-family: Franklin Gothic Medium;
+      font-size: 40px;
+      text-align: center;
+      color: #aabbcc;
+    }
+    
+    .second {
+      background-image: url("http://www.designsnext.com/wp-content/uploads/2013/12/Sparkling-Wine.jpg");
+      background-size: cover;
+      padding: 20px;
+      margin: 0 auto;
+      width:80%;
+      height: 300px;
+      font-family: Franklin Gothic Medium;
+      font-size: 40px;
+      text-align: center; 
+      color: #800080;  
+    }
+    
+    .third {
+      background-image: url("http://www.healthfulpursuit.com/wp-content/uploads/Superfoods-Apple-Cider-12.jpg");
+      background-size: cover;
+      padding: 20px;
+      margin: 0 auto;
+      width:80%;
+      height: 300px;
+      font-family: Franklin Gothic Medium;
+      font-size: 40px;
+      text-align: center;
+      color: #800080;    
+    }
+    
+    @media (max-width: 500px) {
+      img{
+        margin 20px 0px 0px 0px
+      }
+      h1 {
+        font-size: 100px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
