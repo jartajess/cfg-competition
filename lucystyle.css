@@ -47,6 +47,11 @@ header {
       padding: 0px 10px 0px 10px;
     }
     
+    .container {
+          position: relative;
+          top: 300px;
+    }
+    
     .first {
       background-image: url("http://media.salon.com/2014/11/shutterstock_698537053-1280x960.jpg");
       background-size: cover;
