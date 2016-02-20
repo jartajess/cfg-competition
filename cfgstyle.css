@@ -62,8 +62,8 @@ video#bgvid {
 
 #content { 
   position: relative; 
-  top: 50%; 
-  left: 50%;
+  top: 33%; 
+  left: 33%;
   padding:30px; 
   color:#FFF; 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
