@@ -50,6 +50,7 @@
     .container {
           position: relative;
           top: 500px;
+          margin: auto;
     }
     
 .first {
