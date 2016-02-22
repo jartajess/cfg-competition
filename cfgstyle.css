@@ -64,6 +64,7 @@ video#bgvid {
   width: 500px;
   height:380px;
   position: relative;
+  margin: auto;
 }
 
 #content { 
