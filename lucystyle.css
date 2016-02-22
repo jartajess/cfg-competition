@@ -57,7 +57,7 @@
       background-image: url("http://media.salon.com/2014/11/shutterstock_698537053-1280x960.jpg");
       background-size: cover;
       padding: 20px;
-      margin: 0 auto;
+      margin: 20px 0 40px 100px;
       width:80%;
       height: 300px;
       text-align: center;
@@ -77,7 +77,7 @@
       background-image: url("http://www.designsnext.com/wp-content/uploads/2013/12/Sparkling-Wine.jpg");
       background-size: cover;
       padding: 20px;
-      margin: 0 auto;
+      margin: 20px 0 40px 100px;
       width:80%;
       height: 300px;
       font-family: 'Londrina Shadow', cursive;
@@ -101,7 +101,7 @@
       background-image: url("http://www.healthfulpursuit.com/wp-content/uploads/Superfoods-Apple-Cider-12.jpg");
       background-size: cover;
       padding: 20px;
-      margin: 10px 0 10px 0;
+      margin: 20px 0 40px 100px;
       width:80%;
       height: 300px;
       font-family:'Londrina Shadow', cursive;
