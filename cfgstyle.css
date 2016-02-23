@@ -4,6 +4,16 @@ body {
   
 }
 
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+input[type="submit"] {
+      background: green;
+      color: white;
+    }
+
 #bg_container { 
     height:500px;
     overflow:hidden;
