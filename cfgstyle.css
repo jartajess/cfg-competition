@@ -3,14 +3,6 @@ body {
   background:#000;
   
 }
-#inputbox {
-  width: 66%;
-  position: relative;
-  margin: auto;
-  padding: 30px;
-  top: 20px;
-  float: center;
-}
 
 input {
       border: 0;
