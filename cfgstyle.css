@@ -69,6 +69,7 @@ video#bgvid {
 
 #content { 
   position: relative;
+  top: 20px;
   width: 66%;
   padding:30px; 
   color:#FFF; 
