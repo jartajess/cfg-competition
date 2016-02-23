@@ -6,6 +6,12 @@ function initialize() {
 				 };
   		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
   		
+  		//testing stop draggable
+  		
+  		map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+  		
+  		//end test draggable
+  		
   		var marker = new google.maps.Marker({
     		position: {lat: 50.72295, lng: -3.52908},
     		map: map,
