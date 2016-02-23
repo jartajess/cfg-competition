@@ -3,6 +3,13 @@ body {
   background:#000;
   
 }
+#inputbox {
+  width: 66%;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+  top: 20px;
+}
 
 input {
       border: 0;
@@ -10,7 +17,7 @@ input {
       font-size: 18px;
     }
 input[type="submit"] {
-      background: green;
+      background: gray;
       color: white;
     }
 
