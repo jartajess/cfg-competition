@@ -1,11 +1,5 @@
- header {
-      text-align: center;
-      background: url('https://venetianred.files.wordpress.com/2010/01/hannah-hoche28094on-with-the-party-1965.jpg');
-      background-size: cover;
-      color: white;
-    }
-    
-    p {
+
+      p {
       color: rgba(255,255,255,1);
       background: black;
       background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -49,7 +43,7 @@
     
     .container {
           position: relative;
-          top: 500px;
+          top: 50px;
           margin: auto;
     }
     
